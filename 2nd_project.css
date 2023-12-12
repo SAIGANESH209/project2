@@ -1,23 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
 
-.par{
-    color: rgb(24, 54, 95);
-    font-family: 'Gill Sans';
-    font-size: 40px;
-    border-radius: 50px;
-    background-color: rgb(139, 162, 84);
-    margin: 10px;
-    margin-right: 500px;
-    text-align: center;
+.game_container{
+    background-color:rgb(196, 204, 177) ;
     
-}
-.par:hover{
-    background-color:rgb(24, 54, 95) ;
-    color:rgb(139, 162, 84) ;
-
 }
 .image{
     height: 30vh;
-    width: 30vh;
+    width: 30vw;
+    margin: 5px;
+    margin-left: 200px;
+}
+.heading{
     text-align: center;
+    color:brown;
+    font-family: 'Trebuchet MS';
+}
+.input{
+    margin: 5px;
+    margin-left: 250px;
+    margin-right: 250px;
+
+}
+.button{
+    margin: 5px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.result{
+    text-align: center;
+    margin: 5px;
 }
